@@ -195,7 +195,7 @@ padding: 10px 18px;
 
 @media (max-width: 480px) {
 .home {
-padding: 80px 15px;
+padding-top:150px;
 }
 
 .home h1 {
