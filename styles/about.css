@@ -1,0 +1,142 @@
+/* Global Styles */
+body {
+font-family: 'Arial', sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+color: #333;
+transition: background 0.3s, color 0.3s;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+/* Container */
+.container {
+width: 90%;
+max-width: 800px;
+margin: 50px auto;
+padding: 20px;
+padding-top: 80px;
+background: #fff;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+text-align: center;
+}
+
+/* Header */
+header {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.highlight {
+color: #007BFF;
+font-weight: bold;
+}
+
+/* Profile Picture */
+.profile-pic {
+display: block;
+margin: 20px auto;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+border: 4px solid #007BFF;
+object-fit: cover;
+}
+
+/* Skills Section */
+.skills {
+margin-top: 20px;
+}
+
+.skill {
+margin-bottom: 15px;
+font-weight: bold;
+}
+
+.progress {
+width: 100%;
+background: #ddd;
+border-radius: 8px;
+overflow: hidden;
+height: 25px;
+}
+
+.progress-bar {
+height: 100%;
+background: #007BFF;
+color: white;
+text-align: center;
+line-height: 25px;
+border-radius: 8px;
+transition: width 0.5s ease-in-out;
+}
+
+/* Theme Toggle Button */
+#toggle-theme {
+background: #007BFF;
+color: white;
+border: none;
+padding: 12px 24px;
+cursor: pointer;
+border-radius: 8px;
+font-size: 16px;
+transition: background 0.3s;
+margin-top: 20px;
+}
+
+#toggle-theme:hover {
+background: #0056b3;
+}
+
+/* Dark Mode */
+.dark-mode {
+background: #222;
+color: white;
+}
+
+.dark-mode .container {
+background: #333;
+color: white;
+}
+
+.dark-mode .progress {
+background: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+.container {
+padding: 15px;
+padding-top: 60px;
+}
+
+.progress {
+height: 20px;
+}
+
+.progress-bar {
+line-height: 20px;
+}
+
+#toggle-theme {
+font-size: 14px;
+padding: 10px 20px;
+}
+}
+
+.container{
+margin-top:150px;
+}
+
+.home-button{
+
+border:none;
+color:#0056b3;
+font-family: Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight: bold;
+}

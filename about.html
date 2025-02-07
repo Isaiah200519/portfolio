@@ -4,93 +4,22 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>About Me - Portfolio</title>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles/about.css">
+<link rel="stylesheet" href="styles/styles.css">
 <script src="script.js"></script>
-<style>
-body {
-font-family: Arial, sans-serif;
-margin: 0;
-padding: 0;
-background-color: #f4f4f4;
-color: #333;
-transition: background 0.3s, color 0.3s;
-}
-.container {
-max-width: 800px;
-margin: 50px auto;
-padding: 20px;
-padding-top: 100px;
-background: #fff;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-border-radius: 10px;
-}
-header {
-text-align: center;
-}
-.highlight {
-color: #007BFF;
-}
-.profile-pic {
-display: block;
-margin: 20px auto;
-width: 150px;
-height: 150px;
-border-radius: 50%;
-border: 3px solid #007BFF;
-}
-.skills {
-margin-top: 20px;
-}
-.skill {
-margin-bottom: 10px;
-}
-.progress {
-width: 100%;
-background: #ddd;
-border-radius: 5px;
-overflow: hidden;
-}
-.progress-bar {
-height: 20px;
-background: #007BFF;
-color: white;
-text-align: center;
-line-height: 20px;
-border-radius: 5px;
-}
-#toggle-theme {
-background: #007BFF;
-color: white;
-border: none;
-padding: 10px 20px;
-cursor: pointer;
-border-radius: 5px;
-}
-#toggle-theme:hover {
-background: #0056b3;
-}
-.dark-mode {
-background: #222;
-color: white;
-}
-.dark-mode .container {
-background: #333;
-color: white;
-}
-.dark-mode .progress {
-background: #555;
-}
-</style>
-</head>
-<body>
-<div class="container">
-<header>
-<h1 id="typing-effect">Hi, I'm <span class="highlight">Isaiah Savie</span></h1>
-<button id="toggle-theme">Toggle Dark Mode</button>
-</header>
 
+</head>
+
+<body>
+
+    <header>
+        <div class="home-button"><a href="index.html">Home</a></div>
+        <h1 id="typing-effect">Hi, I'm <span class="highlight">Isaiah Savie</span></h1>
+        <button id="toggle-theme">Toggle Dark Mode</button>
+        </header>
+<div class="container">
 <section class="about">
-<img src="images/amazon-picture.png" alt="Your Profile Picture" class="profile-pic">
+<img src="images/isaiah.jpg" alt="Your Profile Picture" class="profile-pic">
 <p>
 I'm a passionate web developer with a strong interest in front-end and back-end technologies. I love solving problems and creating amazing digital experiences.
 </p>
@@ -112,6 +41,7 @@ I'm a passionate web developer with a strong interest in front-end and back-end 
 </div>
 </section>
 </div>
+
 <script>
 const toggleThemeBtn = document.getElementById('toggle-theme');
 toggleThemeBtn.addEventListener('click', () => {
